@@ -1,4 +1,4 @@
-package ss.menu.store.menustore.ui.repository;
+package ss.menu.store.menustore.repository.custom;
 
 import java.util.List;
 
@@ -9,11 +9,11 @@ import javax.persistence.Query;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import ss.menu.store.menustore.ui.model.response.Menu;
+import ss.menu.store.menustore.model.response.Menu;
 
 @Repository
 @Transactional
-public class MenuRepositoryCustomImpl implements MenuRepositoryCustom{
+public class MenuRepositoryCustomImpl implements MenuRepositoryCustom {
 	
 	@PersistenceContext
 	EntityManager entityManager;

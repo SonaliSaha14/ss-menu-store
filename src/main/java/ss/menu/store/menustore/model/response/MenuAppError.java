@@ -1,4 +1,4 @@
-package ss.menu.store.menustore.ui.model.response;
+package ss.menu.store.menustore.model.response;
 
 import java.util.Date;
 

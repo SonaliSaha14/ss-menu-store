@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
-import ss.menu.store.menustore.ui.model.response.MenuAppError;
+import ss.menu.store.menustore.model.response.MenuAppError;
 
 @ControllerAdvice
 public class MenuAppExcpetionHandler {

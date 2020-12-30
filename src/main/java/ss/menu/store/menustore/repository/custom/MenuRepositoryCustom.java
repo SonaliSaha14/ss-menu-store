@@ -1,8 +1,8 @@
-package ss.menu.store.menustore.ui.repository;
+package ss.menu.store.menustore.repository.custom;
 
 import java.util.List;
 
-import ss.menu.store.menustore.ui.model.response.Menu;
+import ss.menu.store.menustore.model.response.Menu;
 
 public interface MenuRepositoryCustom {
 	

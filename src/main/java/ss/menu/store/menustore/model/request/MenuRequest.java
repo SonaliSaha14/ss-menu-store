@@ -1,4 +1,4 @@
-package ss.menu.store.menustore.ui.model.request;
+package ss.menu.store.menustore.model.request;
 
 public class MenuRequest {
 	
